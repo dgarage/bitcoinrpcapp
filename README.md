@@ -30,7 +30,7 @@ $ sudo npm install -g mocha
 
 ### Installing
 
-After downloading, copy the files into a folder inside your Bitcoin folder. Here, for example inside /rpcapp.
+After downloading, copy the files into a folder inside your Bitcoin folder. Here, for example inside /rpcapp:
 
 ```
 $ ls /<YOUR_BITCOIN_FOLDER>/rpcapp
@@ -39,9 +39,28 @@ bitcoin.js
 ...
 ```
 
+From that folder, run npm install
+
+```
+$ cd /<YOUR_BITCOIN_FOLDER>/rpcapp
+$ npm install
+```
+
+If there are no issues, running ./rpc-cli should show something like this:
+
+```
+$ ./rpc-cli
+Available commands:
+[...]
+```
+
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Run npm test and work through the outputs:
+
+```
+$ npm test
+```
 
 ### Break down into end to end tests
 
