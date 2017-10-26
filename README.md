@@ -1,24 +1,10 @@
 # Sample Bitcoin RPC App
 
-Originally built as training material for the [Blockchain Core Camp (BC2)](https://bc-2.jp/) workshop. 
+Originally built as training material for the [Blockchain Core Camp (BC2)](https://bc-2.jp/) workshop, this is for educational purposes only and not intended to be used in a production app.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
-
-What things you need to install the software and how to install them
-
-### Installing
-
-Copy the files into a folder inside your Bitcoin folder. For example /rpcapp
-
-```
-$ mkdir /<YOUR_BITCOIN_FOLDER>/rpcapp
-$ cd /<YOUR_BITCOIN_FOLDER>/rpcapp
-$ git clone https://github.com/dgarage/bitcoinrpcapp
-```
 
 Make sure you have Node.js, MongoDB, and Mocha installed.
 
@@ -42,7 +28,16 @@ $ sudo ln -s /usr/bin/nodejs /usr/local/bin/node # nodeがないとバグった�
 $ sudo npm install -g mocha
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+### Installing
+
+After downloading, copy the files into a folder inside your Bitcoin folder. Here, for example inside /rpcapp.
+
+```
+$ ls /<YOUR_BITCOIN_FOLDER>/rpcapp
+api.js
+bitcoin.js
+...
+```
 
 ## Running the tests
 
@@ -55,18 +50,6 @@ Explain what these tests test and why
 ```
 Give an example
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
