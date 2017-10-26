@@ -48,7 +48,7 @@ $ cd /<YOUR_BITCOIN_FOLDER>/rpcapp
 $ npm install
 ```
 
-By default, this app uses `rpcuser=user` and `rpcpassword=password`, so either set those setting inside the bitcoin.conf or change `config.js`.
+By default, this app uses `rpcuser=user` and `rpcpassword=password`, so either set those setting inside the [bitcoin.conf](https://en.bitcoin.it/wiki/Running_Bitcoin#Bitcoin.conf_Configuration_File) or change `config.js`.
 
 If there are no issues, running ./rpc-cli should show something like this:
 
