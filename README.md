@@ -1,6 +1,8 @@
 # Sample Bitcoin RPC App
 
-Originally built as training material for the [Blockchain Core Camp (BC2)](https://bc-2.jp/) workshop, this is for educational purposes only and not intended to be used in a production app.
+Study material for understanding various real scenarios and it's effect on the Bitcoin RPC usage.
+
+Originally built by [Karl-Johan Alm](https://github.com/kallewoof) as training material for the [Blockchain Core Camp (BC2)](https://bc-2.jp/) workshop, this is for educational purposes only and not intended to be used in a production app.
 
 ## Getting Started
 
@@ -36,22 +38,25 @@ After downloading, copy the files into a folder inside your Bitcoin folder. Here
 $ ls /<YOUR_BITCOIN_FOLDER>/rpcapp
 api.js
 bitcoin.js
-...
+[...]
 ```
 
-From that folder, run npm install
+From that folder, run `npm install` to get the necessary files:
 
 ```
 $ cd /<YOUR_BITCOIN_FOLDER>/rpcapp
 $ npm install
 ```
 
+By default, this app uses `rpcuser=user` and `rpcpassword=password`, so either set those setting inside the bitcoin.conf or change `config.js`.
+
 If there are no issues, running ./rpc-cli should show something like this:
 
 ```
 $ ./rpc-cli
-Available commands:
-[...]
+available commands:
+  create <amount> ...
+  [...]
 ```
 
 ## Running the tests
