@@ -2,7 +2,7 @@
 
 Study material for understanding various real scenarios and it's effect on the Bitcoin RPC usage.
 
-Originally built by [Karl-Johan Alm](https://github.com/kallewoof) as training material for the [Blockchain Core Camp (BC2)](https://bc-2.jp/) workshop, this is for educational purposes only and not intended to be used in a production app.
+Built by [Karl-Johan Alm](https://github.com/kallewoof) as training material for the [Blockchain Core Camp (BC2)](https://bc-2.jp/) workshop, this is for educational purposes only and not intended to be used in a production app.
 
 ## Getting Started
 
@@ -66,19 +66,6 @@ Run npm test and work through the outputs:
 ```
 $ npm test
 ```
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
 
 ## License
 
