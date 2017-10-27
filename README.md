@@ -8,7 +8,12 @@ Built by [Karl-Johan Alm](https://github.com/kallewoof) as training material for
 
 ### Prerequisites
 
-Make sure you have Node.js, MongoDB, and Mocha installed.
+Make sure you have the following installed: 
+* [Node.js](https://nodejs.org/en/)
+* [MongoDB](https://www.mongodb.com/)
+* [Mocha](http://mochajs.org/)
+
+You can install those yourself, or follow these instructions.
 
 For OSX (assuming you have Homebrew installed):
 
