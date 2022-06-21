@@ -19,7 +19,7 @@
     "rpc-cli": "./index.js"
   },
   "dependencies": {
-    "async": "^2.1.4",
+    "async": "^2.6.4",
     "co": "^4.6.0",
     "co-prompt": "^1.0.0",
     "colors": "^1.1.2",
